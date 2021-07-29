@@ -13,6 +13,13 @@ In order to learn more about the stock markets with machine learning, we decided
 ## First, how much can we earn on Savings Account?
 We take a look at how much we can earn by extrapolating **10000 USD** over 10 days based on an annual interest rate of 0.05% according to POSB savings account. The result isn't that astonishing.
 
+![POSB disappointing interest](/Images/POSB_interest_earned.png "10 days of Interest earned on Savings Account")
+
+So we are going to explore what if we put them into stocks or cryptocurrency.
+
+## Polynomial Regression on Cryotcurrency
+
+
 
 ## Credits:
 - Lee Sek Heng
