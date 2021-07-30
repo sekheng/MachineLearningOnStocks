@@ -91,5 +91,5 @@ In conclusion, everyone should invest into the stock market instead of putting a
 You can refer to [Our Machine Learning Google Colab](/StocksTheBestSavingAccount.ipynb "Our codes on ipynb") that we have done numerous steps to achieve the end result including data collection, and how we split the data into train and test dataset.
 
 ## Credits:
-- Lee Sek Heng
+- [Lee Sek Heng](https://www.linkedin.com/in/lee-sek-heng-5070ba154/ "Sek Heng LinkedIn")
 - Chua Eng Soon
