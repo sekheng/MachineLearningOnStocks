@@ -71,8 +71,22 @@ We can safely say that investing in cryptocurrency will beat Savings Account any
 
 LSTM is a model in TensorFlow that can predict stock market to a certain accuracy. When training the model with large amount of data from 2017 to 2020 and include multiple parameter such as 'Open' and 'Close', the model can be surprisingly accurate.
 
+![Surprise accurate simulation](/Images/tsla_train.png "Tesla train model")
 
+- Mean Squared error: 111.12
 
+However when it comes to testing the data using stock data from the start of 2021 to 18 April 2021, the simulation is way off.
+![Not accurate test](/Images/tsla_test.png "Tesla test model")
+
+- Mean Squared error: 120992.04
+
+Possible explanations for this skewed result is because of overfitting of training data result in the model unable to simulate the values of test data. However, this doesn't stop us from attempting to forecast the data and compared it against Savings Account.
+
+![Predict Tesla](/Images/predict_tsla.png "Predict Tesla")
+
+It shows that Tesla stocks can outperform Savings Account at least 100 times!
+
+In conclusion, everyone should invest into the stock market instead of putting all of the money into Savings Account. Of course, the prediction we put up here might not be accurate or even be outdated but our machine learning is confident that investing will yield a lot more return than putting money aside for the raining day.  
 
 You can refer to [Our Machine Learning Google Colab](/StocksTheBestSavingAccount.ipynb "Our codes on ipynb") that we have done numerous steps to achieve the end result including data collection, and how we split the data into train and test dataset.
 
